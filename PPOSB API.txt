@@ -1,0 +1,649 @@
+#bankContainsPartialName	If bank contains item with partial text	Check
+#bankContainsPartialName	If bank does not contain item with partial text	Check
+#close	Close bank	Action
+#closeDepositBox	Close deposit box	Action
+#contains	If bank contains	Check
+List<E> - Supports lists
+#contains	If bank does not contain	Check
+List<E> - Supports lists
+#containsAny	If bank contains any	Check
+List<E> - Supports lists
+#containsAny	If bank does not contain any	Check
+List<E> - Supports lists
+#depositAll	Deposit all	Action
+#depositAllDepositBox	Deposit all in deposit box	Action
+#depositAllExcept	Deposit all except	Action
+List<E> - Supports lists
+#depositAllExceptDepositBox	Deposit all in deposit box except	Action
+List<E> - Supports lists
+#depositAllLootDepositBox	Deposit all loot in deposit box	Action
+#depositAllWornDepositBox	Deposit all worn in deposit box	Action
+#depositAllWornItems	Deposit all worn items	Action
+#depositAllX	Deposit all	Action
+List<E> - Supports lists
+#depositAllXDepositBox	Deposit all in deposit box	Action
+List<E> - Supports lists
+#depositToEqualAmount	Deposit Item to equal amount	Action
+#depositX	Deposit X	Action
+#depositXDepositBox	Deposit X in deposit box	Action
+#enableNoted	Enabled withdraw as noted	Action
+#enableNoted	Disable withdraw as noted	Action
+#getAmount	If get bank amount of	Check
+#getAmountWithPartialName	If get bank amount of item with partial text	Check
+#interactWith	Interact with bank item	Action
+#isAtClosestBank	If my Player is at closest bank	Check
+#isAtClosestBank	If my Player is not at closest bank	Check
+#isDepositBoxOpen	If deposit box is open	Check
+#isDepositBoxOpen	If deposit box is closed	Check
+#isNoted	If withdraw as noted is enabled	Check
+#isNoted	If withdraw as noted is disabled	Check
+#isOpen	If bank is open	Check
+#isOpen	If bank is closed	Check
+#open	Open bank	Action
+#openDepositBox	Open deposit box	Action
+#withdrawAll	Withdraw all	Action
+#withdrawAllButOne	Withdraw all but one	Action
+#withdrawAllX	Withdraw all items	Action
+List<E> - Supports lists
+#withdrawItemWithPartialName	Withdraw item with partial text	Action
+#withdrawRandomX	Withdraw random amount of Item	Action
+#withdrawToEqualAmount	Withdraw Item to equal amount	Action
+#withdrawX	Withdraw X	Action
+#startBreak	Starting break handler	Action
+#getPitch	If camera pitch is	Check
+#getYaw	If camera yaw is	Check
+#getZoom	If camera zoom is	Check
+#getZoom	If camera zoom is not	Check
+#movePitch	Move camera pitch	Action
+#moveYaw	Move camera yaw	Action
+#toBottom	Move camera to bottom	Action
+#toEntity	Rotate camera to	Action
+#toPosition	Rotate camera to position	Action
+#toTop	Move camera to top	Action
+#zoomCamera	Zoom camera to	Action
+#getPlayerFighting	If currently in combat with Player	Check
+#getPlayerFighting	If not in combat with Player	Check
+#getSpecialAttackPercentage	If special percentage is	Check
+#isAutoRetaliateOn	If auto retaliate is enabled	Check
+#isAutoRetaliateOn	If auto retaliate is disabled	Check
+#isCombatStyle	If combat style is	Check
+#isCombatStyle	If combat style is not	Check
+#isDiseased	If my Player is diseased	Check
+#isDiseased	If my Player is not diseased	Check
+#isFighting	If my Player is fighting	Check
+#isFighting	If my Player is not fighting	Check
+#isPlayerAttackingMyPlayer	If Player is attacking my Player	Check
+#isPlayerAttackingMyPlayer	If Player is not attacking my Player	Check
+#isPoisoned	If my Player is poisoned	Check
+#isPoisoned	If my Player is not poisoned	Check
+#isPoisonImmunne	If my Player is poison immune	Check
+#isPoisonImmunne	If my Player is not poison immune	Check
+#isSpecialAttackActivated	If special attack is activated	Check
+#isSpecialAttackActivated	If special attack is disabled	Check
+#isVenomed	If my Player is venomed	Check
+#isVenomed	If my Player is not venomed	Check
+#switchCombatStyle	Switch combat style to	Action
+#toggleAutoRetaliate	Enable auto retaliate	Action
+#toggleAutoRetaliate	Disable auto retaliate	Action
+#toggleSpecialAttack	Activate special attack	Action
+#toggleSpecialAttack	Disable special attack	Action
+#getValue	If config value is	Check
+#isSet	If config is set	Check
+#isSet	If config is not set	Check
+#comment	(Comment)	Action
+#debug	Debug	Action
+#popup	Display pop-up message	Action
+#clickContinue	Continue dialogue	Action
+#completeDialogue	Complete dialogue options	Action
+#isInDialogue	If is in dialogue	Check
+#isInDialogue	If not in dialogue	Check
+#isPendingContinuation	If is pending continuation	Check
+#isPendingContinuation	If not pending continuation	Check
+#isPendingOption	If is pending option	Check
+#isPendingOption	If not pending option	Check
+#selectOption	Select dialogue option	Action
+#hasGearEquipped	If gear is equipped	Check
+List<E> - Supports lists
+#hasGearEquipped	If gear is not equipped	Check
+List<E> - Supports lists
+#interact	Interact with slot	Action
+#interactWithNameThatContains	Interact with name that contains	Action
+#isWearingItem	If wearing item	Check
+'*' - Supports wildcards
+#isWearingItem	If not wearing item	Check
+'*' - Supports wildcards
+#isWearingItemThatContains	If wearing item that contains	Check
+#isWearingItemThatContains	If not wearing item that contains	Check
+#isWieldingWeapon	If wielding weapon	Check
+#isWieldingWeapon	If not wielding weapon	Check
+#isWieldingWeaponThatContains	If wielding weapon that contains	Check
+#isWieldingWeaponThatContains	If not wielding weapon that contains	Check
+#unequip	Unequip item	Action
+#buy	Buy item (static) from Grand Exchange	Action
+#buyDynamic	Buy item (dynamic) from Grand Exchange	Action
+#changeItemPriceBy5Percent	Adjust Grand Exchange price by 5%	Action
+#close	Close Grand Exchange	Action
+#collect	Collect Grand Exchange items	Action
+#getOfferPrice	If offer price is	Check
+#getOfferQuantity	If offer quantity is	Check
+#isBuyOfferOpen	If buy offer is open	Check
+#isBuyOfferOpen	If buy offer is not open	Check
+#isEmpty	If Grand Exchange is empty	Check
+#isEmpty	If Grand Exchange is not empty	Check
+#isFinishedBuying	If finished buying Grand Exchange purchase	Check
+#isFinishedBuying	If not finished buying Grand Exchange purchase	Check
+#isFinishedBuyingAllSlots	If finished buying all Grand Exchange purchases	Check
+#isFinishedBuyingAllSlots	If not finished buying all Grand Exchange purchases	Check
+#isFinishedSelling	If finished Grand Exchange sale	Check
+#isFinishedSelling	If not finished Grand Exchange sale	Check
+#isFinishedSellingAllSlots	If finished selling all Grand Exchange sales	Check
+#isFinishedSellingAllSlots	If not finished selling all Grand Exchange sales	Check
+#isFull	If Grand Exchange is full	Check
+#isOfferScreenOpen	If offer screen is open	Check
+#isOfferScreenOpen	If offer screen is not open	Check
+#isOpen	If Grand Exchange is open	Check
+#isOpen	If Grand Exchange is closed	Check
+#isPendingBuy	If pending Grand Exchange purchase	Check
+#isPendingBuy	If not pending Grand Exchange purchase	Check
+#isPendingSale	If pending Grand Exchange sale	Check
+#isPendingSale	If not pending Grand Exchange sale	Check
+#isSellOfferOpen	If sell offer is open	Check
+#isSellOfferOpen	If sell offer is not open	Check
+#open	Open Grand Exchange	Action
+#sell	Sell item (static) to Grand Exchange	Action
+#sellDynamic	Sell item (dynamic) to Grand Exchange	Action
+#setOfferPrice	Set Grand Exchange offer price	Action
+#setOfferQuantity	Set Grand Exchange offer quantity	Action
+#startManualBuyOffer	Start manual Grand Exchange buy offer	Action
+#startManualSellOffer	Start manual Grand Exchange sell offer	Action
+#getPosition	If graphics object position is	Check
+#isVisible	If graphics object is visible	Check
+#isVisible	If graphics object is not visible	Check
+#areaContainsGroundItem	If area contains GroundItem	Check
+'*' - Supports wildcards
+#areaContainsGroundItem	If area does not contain GroundItem	Check
+'*' - Supports wildcards
+#getAmount	If get GroundItem amount of	Check
+#getAmountWithPartialName	If get GroundItem amount of item with partial text	Check
+#getHeight	If GroundItem height is	Check
+#getPosition	If GroundItem position is	Check
+#getZ	If GroundItem Z-axis is	Check
+#hasAction	If GroundItem has action	Check
+#hasAction	If GroundItem does not have the action	Check
+#hasLooted	If my Player looted last kill	Check
+#hasLooted	If my Player has not looted last kill	Check
+#interactWith	Interact With GroundItem	Action
+List<E> - Supports lists
+'*' - Supports wildcards
+#interactWithAtPosition	Interact with GroundItem at position	Action
+'*' - Supports wildcards
+#interactWithAtPositionController	Interact with GroundItem at controller position	Action
+'*' - Supports wildcards
+#interactWithContainingAction	Interact with GroundItem containing action	Action
+'*' - Supports wildcards
+#interactWithContainingName	Interact with GroundItem containing name	Action
+#interactWithGroundItemWithinArea	Interact with GroundItem within area	Action
+List<E> - Supports lists
+'*' - Supports wildcards
+#interactWithMultipleTimes	Interact with GroundItem multiple times	Action
+#isExists	If GroundItem exists	Check
+'*' - Supports wildcards
+#isExists	If GroundItem does not exists	Check
+'*' - Supports wildcards
+#isExistsOverXGP	If GroundItem over X gp exists	Check
+#isExistsOverXGP	If GroundItem over X gp does not exist	Check
+#isExistsOverXGPInArea	If GroundItem over X gp exists in area	Check
+#isExistsOverXGPInArea	If GroundItem over X gp does not exist in area	Check
+#isGroundItemUnderMyPlayer	If GroundItem is under my Player	Check
+#isGroundItemUnderMyPlayer	If GroundItem is not under my Player	Check
+#isVisible	If GroundItem is visible	Check
+#isVisible	If GroundItem is not visible	Check
+#lootItemsOverXGP	Loot ground items over X gp	Action
+#lootItemsOverXGPWithinArea	Loot ground items over X gp within area	Action
+#lootLastKill	Loot last kill	Action
+List<E> - Supports lists
+#lootLastKillOverXGP	Loot last kill over X gp	Action
+#comboEat	Perform combo eat	Action
+#contains	If inventory contains	Check
+List<E> - Supports lists
+#contains	If inventory does not contain	Check
+List<E> - Supports lists
+#containsAny	If inventory contains any	Check
+List<E> - Supports lists
+#containsAnyOtherThan	If inventory contains items other than	Check
+List<E> - Supports lists
+#deselect	Deselect item	Action
+#dropAll	Drop all inventory	Action
+#dropAllExcept	Drop all except	Action
+List<E> - Supports lists
+#dropAllX	Drop all X	Action
+List<E> - Supports lists
+#dropX	Drop X	Action
+#gearSwap	Perform gear swap	Action
+List<E> - Supports lists
+#getAmount	If get inventory amount of	Check
+#getAmountWithPartialName	If get inventory amount of item with partial text	Check
+#getEmptySlots	Get empty inventory slots	Check
+#hoverItem	Hover inventory item	Action
+#hoverSlot	Hover inventory slot	Action
+#interactWith	Interact with Inventory item	Action
+#interactWithInventorySlot	Interact with Inventory slot	Action
+#interactWithItemContainingAction	Interact with item containing action	Action
+#interactWithItemWithPartialName	Interact with Inventory item containing partial text	Action
+#inventoryContainsPartialName	If inventory contains item with partial name	Check
+#inventoryContainsPartialName	If inventory does not contain item with partial name	Check
+#isEmpty	If inventory is empty	Check
+#isEmpty	If inventory is not empty	Check
+#isFull	If inventory is full	Check
+#isFull	If inventory is not full	Check
+#isItemSelected	If item is selected	Check
+#isItemSelected	If item is not selected	Check
+#itemHasAction	If inventory contains item with action	Check
+#itemHasAction	If inventory does not contain item with action	Check
+#moveItemToSlot	Move item to slot	Action
+#slotContains	If inventory slot contains	Check
+'*' - Supports wildcards
+#slotContains	If inventory slot does not contain	Check
+'*' - Supports wildcards
+#holdKey	Hold keycode	Action
+#pressEnter	Press enter	Action
+#pressEscape	Press escape	Action
+#pressHotKey	Press hotkey	Action
+#pressSpace	Press space	Action
+#pressThreadKey	Press thread key	Action
+#releaseKey	Release keycode	Action
+#releaseThreadKey	Release thread key	Action
+#type	Type string	Action
+#type	Type keycode	Action
+#typeAdvanced	Type string	Action
+#typeRandomNumber	Type random number	Action
+#typeRandomUsername	Type random username	Action
+#stop	Stop script (log out)	Action
+#stop	Stop script (logged in)	Action
+#autocastSpell	Set autocast spell	Action
+#canCast	If can cast	Check
+#canCast	If can not cast	Check
+#castSpell	Cast spell	Action
+#castSpellOnEntity	Cast spell on Entity	Action
+#deselectSpell	Deselect spell	Action
+#getCurrentSpellBook	If spell book is	Check
+#getCurrentSpellBook	If spell book is not	Check
+#getSelectedSpell	If selected spell name is	Check
+#getSelectedSpell	If selected spell name is not	Check
+#hoverSpell	Hover spell	Action
+#isSpellSelected	If spell is selected	Check
+#isSpellSelected	If spell is not selected	Check
+#isSpellSelectedForAutocast	If autocast spell is set	Check
+#isSpellSelectedForAutocast	If autocast spell is not set	Check
+#canReachEntity	If can reach entity	Check
+#canReachEntity	If can not reach entity	Check
+#canReachPosition	If can reach position	Check
+#canReachPosition	If can not reach position	Check
+#getDistance	If distance to entity is	Check
+#getDistanceToPosition	If distance to position is	Check
+#getEntityCoords	If entity coord is	Check
+#isPositionVisible	If position is visible	Check
+#isPositionVisible	If position is not visible	Check
+#clearOnMessage	clear onMessage	Action
+#messageContains	If onMessage contains	Check
+#messageContains	If onMessage does not contain	Check
+#messageFromPlayerContains	If onMessage from Player contains	Check
+#messageFromPlayerContains	If onMessage from Player does not contain	Check
+#hoverEntity	Hover entity	Action
+#hoverPlayerPosition	Hover Player position	Action
+'*' - Supports wildcards
+#hoverPosition	Hover position	Action
+#isHoveringEntity	If mouse is hovering entity	Check
+#isHoveringEntity	If mouse is not hovering entity	Check
+#isHoveringEntityType	If mouse is hovering entity	Check
+#isHoveringEntityType	If mouse is not hovering entity	Check
+#leftClick	Mouse left click	Action
+#leftClickMultipleTimes	Mouse left click multiple times	Action
+#moveMouse	Move mouse	Action
+#moveMouseAndClick	Move mouse and click	Action
+#moveMouseAndClickMultipleTimes	Move mouse and click random	Action
+#moveMouseSlightly	Move mouse slightly	Action
+#moveOutsideScreen	Move mouse outside of screen	Action
+#rightClick	Mouse right click	Action
+#scrollDown	Mouse scroll down	Action
+#scrollUp	Mouse scroll up	Action
+#areaContainsPlayer	If my Player is within area	Check
+#areaContainsPlayer	If my Player is not within area	Check
+#getAccountType	If my account type is	Check
+#getAnimationID	If my Player animation ID equals	Check
+#getAnimationID	If my Player animation ID does not equal	Check
+#getCurrentHealth	If my Player health is	Check
+#getCurrentHealthPercent	If my Player health % is	Check
+#getDirection	If my Player direction is	Check
+#getDistanceTo	If my Player distance to entity is	Check
+#getLevel	If my Player combat level is	Check
+#getPosition	If my Player position is	Check
+#isAnimating	If my Player is animating	Check
+#isAnimating	If my Player is not animating	Check
+#isAttackable	If my Player is attackable	Check
+#isAttackable	If my Player is not attackable	Check
+#isExists	If my Player exists	Check
+#isExists	If my Player does not exists	Check
+#isHitBarVisible	If my Player hit bar is visible	Check
+#isHitBarVisible	If my Player hit bar is not visible	Check
+#isMoving	If my Player is moving	Check
+#isMoving	If my Player is not moving	Check
+#isUnderAttack	If my Player is under attack	Check
+#isUnderAttack	If my Player is not under attack	Check
+#isVisible	If my Player is visible	Check
+#isVisible	If my Player is not visible	Check
+#myPlayerCoords	If my Player coord is	Check
+#myPlayerHeight	If my Player height is	Check
+#myPlayerIsInteracting	If my Player is interacting with entity	Check
+#myPlayerIsInteracting	If my Player is not interacting with entity	Check
+#startingAreaContainsPlayer	If my Player is within starting area	Check
+#startingAreaContainsPlayer	If my Player is not within starting area	Check
+#areaContainsNPC	If area contains NPC	Check
+List<E> - Supports lists
+'*' - Supports wildcards
+#areaContainsNPC	If area does not contain NPC	Check
+List<E> - Supports lists
+'*' - Supports wildcards
+#getAnimationID	If NPC animation ID is	Check
+#getCurrentHealthPercent	If NPC health % is	Check
+#getDirection	If NPC direction is	Check
+'*' - Supports wildcards
+#getHeight	If NPC height is	Check
+#getLevel	If NPC level is	Check
+#getPosition	If NPC position is	Check
+#getPrayerIcon	If NPC overhead is	Check
+#getPrayerIcon	If NPC overhead is not	Check
+#getZ	If NPC Z-axis is	Check
+#hasAction	If NPC has action	Check
+#hasAction	If NPC does not have action	Check
+#headMessageContains	If NPC head-message contains	Check
+#headMessageContains	If NPC head-message does not contain	Check
+#interactWith	Interact with NPC	Action
+List<E> - Supports lists
+'*' - Supports wildcards
+#interactWithContainingAction	Interact with NPC containing action	Action
+'*' - Supports wildcards
+#interactWithContainingName	Interact with NPC containing name	Action
+#interactWithMultipleTimes	Interact with NPC multiple times	Action
+#interactWithNotInteractingWithMyPlayer	Interact with NPC not interacting with my Player	Check
+'*' - Supports wildcards
+#interactWithNPCNotUnderAttack	Interact with NPC not in combat	Action
+'*' - Supports wildcards
+#interactWithNPCWithinArea	Interact with NPC within area	Action
+List<E> - Supports lists
+'*' - Supports wildcards
+#isAnimating	If NPC is animating	Check
+#isAnimating	If NPC is not animating	Check
+#isAttackable	If NPC is attackable	Check
+#isAttackable	If NPC is not attackable	Check
+#isExists	If NPC exists	Check
+#isExists	If NPC does not exists	Check
+#isHintIconPresent	If NPC has hint icon	Check
+'*' - Supports wildcards
+#isHintIconPresent	If NPC does not have hint icon	Check
+'*' - Supports wildcards
+#isHitBarVisible	If NPC hit bar is visible	Check
+#isHitBarVisible	If NPC hit bar is not visible	Check
+#isMoving	If NPC is moving	Check
+#isMoving	If NPC is not moving	Check
+#isNPCFacingMyPlayer	If NPC is facing my Player	Check
+#isNPCFacingMyPlayer	If NPC is not facing my Player	Check
+#isNPCUnderMyPlayer	If NPC is under my Player	Check
+#isNPCUnderMyPlayer	If NPC is not under my Player	Check
+#isUnderAttack	If NPC is under attack	Check
+#isUnderAttack	If NPC is not under attack	Check
+#isVisible	If NPC is visible	Check
+#isVisible	If NPC is not visible	Check
+#areaContainsPlayer	If Player is within area	Check
+#areaContainsPlayer	If Player is not within area	Check
+#getAnimationID	If Player animation ID is	Check
+#getCurrentHealthPercent	If Player health % is	Check
+#getLevel	If Player level is	Check
+#getPlayerCount	If player count is	Check
+#getPlayerCountInArea	If player count in area is	Check
+#getPosition	If Player position is	Check
+'*' - Supports wildcards
+#interactWith	Interact With Player	Action
+'*' - Supports wildcards
+#isAnimating	If Player is animating	Check
+#isAnimating	If Player is not animating	Check
+#isAttackable	If Player is attackable	Check
+#isAttackable	If Player is not attackable	Check
+#isEquippingItem	If Player is equipping item	Check
+'*' - Supports wildcards
+#isEquippingItem	If Player is not equipping item	Check
+'*' - Supports wildcards
+#isEquippingItemThatContains	If Player is equipping item that contains	Check
+'*' - Supports wildcards
+#isEquippingItemThatContains	If Player is not equipping item that contains	Check
+'*' - Supports wildcards
+#isExists	If Player exists	Check
+'*' - Supports wildcards
+#isExists	If Player does not exists	Check
+'*' - Supports wildcards
+#isHitBarVisible	If Player hit bar is visible	Check
+#isHitBarVisible	If Player hit bar is not visible	Check
+#isMoving	If Player is moving	Check
+#isMoving	If Player is not moving	Check
+#isPlayerUnderMyPlayer	If Player is under my Player	Check
+#isPlayerUnderMyPlayer	If Player is not under my Player	Check
+#isSkulled	If Player is skulled	Check
+'*' - Supports wildcards
+#isSkulled	If Player is not skulled	Check
+'*' - Supports wildcards
+#isUnderAttack	If Player is under attack	Check
+#isUnderAttack	If Player is not under attack	Check
+#isVisible	If Player is visible	Check
+#isVisible	If Player is not visible	Check
+#joinHouseAdvertisementWithName	Enter House Advertisement with name	Action
+#rightClickRandomPlayer	Right click random Player	Action
+#disablePrayer	Disable prayer	Action
+#disablePrayers	Disabling all prayers	Action
+#enablePrayer	Enable prayer	Action
+#getCurrentPrayer	If current prayer is	Check
+#getCurrentPrayer	If current prayer is not	Check
+#isPrayerOn	If prayer is enabled	Check
+#isPrayerOn	If prayer is disabled	Check
+#getDistance	If projectile distance is	Check
+#isTargetingMyPlayer	If projectile is targeting my Player	Check
+#isTargetingMyPlayer	If projectile is not targeting my Player	Check
+#isVisible	If projectile is visible	Check
+#isVisible	If projectile is not visible	Check
+#areaContainsRS2Object	If RS2Object is within area	Check
+'*' - Supports wildcards
+#areaContainsRS2Object	If RS2Object is not within area	Check
+'*' - Supports wildcards
+#getHeight	If RS2Object height is	Check
+#getPosition	If RS2Object position is	Check
+#getZ	If RS2Object Z-axis is	Check
+#hasAction	If RS2Object has action	Check
+#hasAction	If RS2Object does not have action	Check
+#hasColor	If RS2Object has color	Check
+#hasColor	If RS2Object does not have color	Check
+#hasModelID	If RS2Object has model ID	Check
+#hasModelID	If RS2Object does not have model ID	Check
+#hasRealID	If RS2Object has real ID	Check
+#hasRealID	If RS2Object does not have real ID	Check
+#interactWith	Interact With RS2Object	Action
+List<E> - Supports lists
+#interactWithAtPosition	Interact with RS2Object at position	Action
+'*' - Supports wildcards
+#interactWithAtPositionController	Interact with RS2Object at controller position	Action
+'*' - Supports wildcards
+#interactWithContainingAction	Interact With RS2Object containing action	Action
+'*' - Supports wildcards
+#interactWithMultipleTimes	Interact with RS2Object multiple times	Action
+#interactWithRS2ObjectWithinArea	Interact with RS2Object within area	Action
+List<E> - Supports lists
+'*' - Supports wildcards
+#isExists	If RS2Object exists	Check
+#isExists	If RS2Object does not exists	Check
+#isRS2ObjectUnderMyPlayer	If RS2Object is under my Player	Check
+#isRS2ObjectUnderMyPlayer	If RS2Object is not under my Player	Check
+#isVisible	If RS2Object is visible	Check
+#isVisible	If RS2Object is not visible	Check
+#clickWidget	Click widget	Action
+#close	Close widget interface	Action
+#getDisabledMediaID	If widget disabled media id is	Check
+#getDisabledSpriteID	If widget disabled sprite id is	Check
+#getEnabledMediaID	If widget enabled media id is	Check
+#getEnabledSpriteID	If widget enabled sprite id is	Check
+#getItemAmount	If widget item amount is	Check
+#getTextColor	If widget text color is	Check
+#getTextColor	If widget text color is not	Check
+#getTextColorContainingText	If widget is visible containg text and the text color is	Check
+#getTextColorContainingText	If widget is visible containg text and the text color is not	Check
+#getWidth	If widget width is	Check
+#hoverContainingText	Hover widget containing text	Action
+#hoverWidget	Hover widget	Action
+#interact	Interact with widget	Action
+#interactWithWidgetContainingAction	Interact with widget containing action	Action
+#interactWithWidgetContainingSpellName	Interact with widget containing spell name	Action
+#interactWithWidgetContainingText	Interact with widget containing text	Action
+#interactWithWidgetNexusPortal	Interact with Nexus Portal	Action
+#isActionVisible	If widget containing action is visible	Check
+#isActionVisible	If widget containing action is not visible	Check
+#isRelativePosition	If widget relative position is	Check
+#isRelativePositionContainingText	If widget relative position containing text is	Check
+#isSpellVisible	If widget containing spell name is visible	Check
+#isSpellVisible	If widget containing spell name is not visible	Check
+#isVisible	If widget is visible	Check
+#isVisible	If widget is not visible	Check
+#isVisibleContainingText	If widget containing text is visible	Check
+#isVisibleContainingText	If widget containing text is not visible	Check
+#numericCompare	If widget numeric compare value is	Check
+#areRoofsEnabled	If roofs are enabled	Check
+#areRoofsEnabled	If roofs are disabled	Check
+#disableRunning	Set running to disabled	Action
+#enableRunning	Set running to enabled	Action
+#getPlayerWeight	If player weight is	Check
+#getRunEnergy	If run energy is	Check
+#isAcceptAid	If accept aid is enabled	Check
+#isAcceptAid	If accept aid is disabled	Check
+#isDataOrbsActive	If data orbs are enabled	Check
+#isDataOrbsActive	If data orbs are disabled	Check
+#isRunning	If running is enabled	Check
+#isRunning	If running is disabled	Check
+#isShiftdropEnabled	If shift-drop is enabled	Check
+#isShiftdropEnabled	If shift-drop is disabled	Check
+#openSettings	Open settings	Action
+#getDynamicSkillLevelCompare	If dynamic skill level compare is	Check
+#getSkillLevel	If skill level is	Check
+#getSkillXP	If skill XP is	Check
+#getTotalLevel	If total level is	Check
+#sleep	Sleep for	Action
+#sleepAnimating	Sleep while animating	Action
+#sleepMoving	Sleep while moving	Action
+#sleepOnInvChange	Sleep on inventory change	Action
+#sleepRandom	Sleep random between	Action
+#sleepTeleporting	Sleep while teleporting	Action
+#buy	Buy item from store	Action
+#close	Close store	Action
+#getAmount	If item amount available is	Check
+#isOpen	If store is open	Check
+#isOpen	If store is closed	Check
+#itemPriceLessThan	If item price is less than or equal to	Check
+#itemPriceLessThan	If item price is greater than	Check
+#sell	Sell item to store	Action
+#storeContains	If store contains	Check
+List<E> - Supports lists
+#storeContains	If store does not contain	Check
+List<E> - Supports lists
+#isOpen	If tab is open	Check
+#isOpen	If tab is not open	Check
+#open	Open tab	Action
+#editTimer	Edit timer	Action
+#end	Stop timer	Action
+#getTimeRemaining	If time remaining is	Check
+#isRunning	If timer is running	Check
+#isRunning	If timer is not running	Check
+#pause	Pause timer	Action
+#reset	Reset timer	Action
+#resume	Resume timer	Action
+#start	Start timer	Action
+#acceptIncomingTrade	Accept incoming trade	Action
+#acceptTrade	Accept trade	Action
+#declineTrade	Decline trade	Action
+#didOtherAcceptTrade	If other Player accepted trade	Check
+#didOtherAcceptTrade	If other Player did not accepted trade	Check
+#getTradingPlayerName	If in trade with Player	Check
+#getTradingPlayerName	If not in trade with Player	Check
+#isCurrentlyInTrade	If currently in trade	Check
+#isCurrentlyInTrade	If currently not in trade	Check
+#isFirstInterfaceOpen	If first trade interface is open	Check
+#isFirstInterfaceOpen	If first trade interface is closed	Check
+#isSecondInterfaceOpen	If second trade interface is open	Check
+#isSecondInterfaceOpen	If second trade interface is closed	Check
+#myPlayerIsOffering	If my Player is offering	Check
+List<E> - Supports lists
+#myPlayerIsOffering	If my Player is not offering	Check
+List<E> - Supports lists
+#offerAllItems	Offer all items in trade	Action
+#offerItem	Offer item	Action
+#offerItemsList	Offer items list	Action
+List<E> - Supports lists
+#offerToEqualAmount	Offer item to equal amount	Action
+#otherPlayerIsOffering	If other Player is offering	Check
+List<E> - Supports lists
+#otherPlayerIsOffering	If other Player is not offering	Check
+List<E> - Supports lists
+#tradePlayer	Trade player	Action
+#addElse	ELSE	Action
+#addOr	OR	Check
+#changeScriptState	Setting script state to	Action
+#compareIntegers	If (Integer) compared is	Check
+#comparePositions	If (Position) compared is	Check
+#compareStrings	If (String) compared is	Check
+#editBoolean	(Boolean) Set boolean to	Action
+#editString	(String) Set string to	Action
+#enableChatbot	Enable chatbot	Action
+#enableChatbot	Disable chatbot	Action
+#enableThreadEating	Enable thread eating	Action
+#enableThreadEating	Disable thread eating	Action
+#generateRandomInteger	Randomize (Integer) value	Action
+#getBoolean	If (Boolean) is set to	Check
+#getInteger	If (Integer) is	Check
+#getLocalTime	If local time is	Check
+#getRandomNumber	If (Random Number) is	Check
+#getString	If (String) is set to	Check
+#goTo	(GoTo) Method number	Action
+#isChatbotEnabled	If chatbot is enabled	Check
+#isChatbotEnabled	If chatbot is disabled	Check
+#operationInteger	(Integer) Perform operation	Action
+#playBeep	Play computer beep	Action
+#replacePositions	(Position) Replace positions	Action
+#replaceStrings	(String) Replace strings	Action
+#sendDiscord	Send Discord message	Action
+#setPositionRelativeToEntity	Set (Position) relative to entity	Action
+#stringContains	If String contains	Check
+#switchScript	Switch to script	Action
+#takeScreenshot	Take screenshot	Action
+#clickOnArea	Click on area	Action
+#clickOnPosition	Click on position	Action
+#interactWithMinimap	Walk to minimap tile destination	Action
+#walkDirectional	Walk directional	Action
+#walkPath	Walk path	Action
+#walkToArea	Walk to area	Action
+#walkToClosestBank	Walk to closest bank	Action
+#walkToClosestDepositBox	Walk to closest deposit box	Action
+#walkToControllerPosition	Walk to Controller position	Action
+#walkToEntity	Walk to entity	Action
+#walkToPosition	Walk to position	Action
+#walkToStartingArea	Walk to my Player starting area	Action
+#walkToStartingPos	Walk to starting position	Action
+#attackClosestPlayer	Attack closest player	Action
+#canPlayerAttackMe	If player(s) can attack my Player	Check
+#getCurrentWildernessLevel	If wilderness level is	Check
+#isInWilderness	If my Player is in wilderness	Check
+#isInWilderness	If my Player is not in wilderness	Check
+#getCurrentWorld	If current world is	Check
+#getFriendsWorld	If friend's world compared to my Player is	Check
+#hopToF2P	Hop to F2P world	Action
+#hopToFriendsWorld	Hop to friend's world	Action
+#hopToP2P	Hop to P2P world	Action
+#hopToRandomWorld	Hop to random world	Action
+#hopToWorld	Hop to world	Action
+#isFriendOnline	If friend is online	Check
+#isFriendOnline	If friend is offline	Check
+#isMembers	If current world is P2P	Check
+#isMembers	If current world is F2P	Check
